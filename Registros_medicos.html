@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="Style.css" > 
+
+</head>
+<header><H1>Centro Medico Backend</H1> 
+    <img src="img/cruz.png" alt="Imagen de cruz" aling="left">
+
+    </header>
+
+<body>
+    <form id="registro-medicos-form">
+        <h2>Registro de médicos</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese Nombres" required>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese Apellidos">
+        <label for="cedula">Número de Cédula:</label>
+        <input type="number" id="cedula" name="cedula" placeholder="Ingrese Cedula">
+        <label for="consultorio">Número de consultorio:</label>
+        <input type="number" id="consultorio" name="consultorio" placeholder="Ingrese Consultorio">
+        <label for="telefono">Telefono:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Ingrese Telefono">
+        <label for="correo">Correo de contacto:</label>
+        <input type="email" id="correo" name="correo" placeholder="Ingrese correo">
+        <label for="especialidad">Especialidad requerida:</label>
+        <select id="especialidad" name="especialidad">
+            <option value="">Seleccione la especialidad</option>
+            <option value="Medicina general">Medicina general</option>
+            <option value="Cardiología">Cardiología</option>
+            <option value="Medicina interna">Medicina interna</option>
+            <option value="Dermatología">Dermatología</option>
+            <option value="Rehabilitación física">Rehabilitación física</option>
+            <option value="Psicología">Psicología</option>
+            <option value="Odontología">Odontología</option>
+            <option value="Radiología">Radiología</option>
+        </form>
+        </select>
+        <input type="submit" value="Enviar">
+        <div class="boton-container">
+            <a href="index.html"><input type="button" value="Volver"></a>
+</body>
+</html>
